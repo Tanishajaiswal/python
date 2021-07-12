@@ -1,0 +1,22 @@
+#syntax to print the lenght of a string
+str="hello captain"
+print(len(str))
+
+#syntax to count the number of items in a string
+string=("apple", "mango","strawberry","apple")
+print(string.count("apple"))
+
+#syntax for getting the first character of a string
+greeting="hello captain"
+x=greeting[0]
+print(x)
+
+#syntax to get a series of characters from a string
+greeting="hello captain"
+x=greeting[0:5]
+print(x)
+
+#syntax to print a title
+greeting="hello captain"
+greeting2=str.title()
+print("title method used=",greeting2)
