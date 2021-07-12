@@ -1,0 +1,19 @@
+#syntax to append an item in a list
+veggies=["tomato","onion","potato","eggplant"]
+veggies.append("ladyfinger")
+print(veggies)
+
+#syntax to insert an item in a list 
+veggies=["tomato","onion","potato","eggplant"]
+veggies.insert(3,"ladyfinger")
+print(veggies)
+
+#syntax to remove an item from alist
+veggies=["tomato","onion","potato","eggplant"]
+veggies.remove("onion")
+print(veggies)
+
+#syntax to pop out an item from a list
+veggies=["tomato","onion","potato","eggplant"]
+veggies.pop(3)
+print(veggies)
