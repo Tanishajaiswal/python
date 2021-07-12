@@ -1,0 +1,23 @@
+#syntax to use for loop
+fruits = ["apple", "banana", "cherry"]
+
+for x in fruits:
+    print(x)
+
+#syntax to use continue statement
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+      continue
+  print(x)
+  
+#syntax to use range function
+for x in range(6):
+  print(x)
+  
+#syntax to use break statement
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+      break
+  print(x)
