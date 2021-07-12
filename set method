@@ -1,0 +1,25 @@
+#syntax to check if an item is present in a set
+fruits = {"apple", "banana", "cherry"}
+if "apple" in fruits:
+  print("Yes, apple is a fruit!")
+  
+#syntax to add an item in a set
+fruits = {"apple", "banana", "cherry"}
+fruits.add("orange")
+print(fruits)
+
+#syntax to update an item in a list
+fruits = {"apple", "banana", "cherry"}
+more_fruits = ["orange", "mango", "grapes"]
+fruits.update(more_fruits)
+print(fruits)
+
+#syntax to remove an item from a set
+fruits = {"apple", "banana", "cherry"}
+fruits.remove("banana")
+print(fruits)
+
+#syntax to discard an item from a set
+fruits = {"apple", "banana", "cherry"}
+fruits.discard("banana")
+print(fruits)
