@@ -1,0 +1,24 @@
+#syntax to check the if condition
+a=50
+b=100
+if b>a:
+    print("b is greater than a")
+    
+#syntax for if else
+a=50
+b=100
+if b>a:
+    print("b is greater than a")
+else:
+    print("a is greater than b")
+    
+#syntax for nested if else
+marks=int(input("enter the marks:"))
+if marks>=90:
+    print("A grade")
+elif marks>= 80:
+    print ("B grade")
+elif marks>=70:
+    print("c grade")
+else:
+    print("fail")
