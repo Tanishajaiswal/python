@@ -1,0 +1,43 @@
+#syntax to print the dictionary items 
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+x = car.items()
+
+print(x)
+
+#syntax to pop out an element from the list
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+car.pop("model")
+
+print(car)
+
+#syntax to clear all the elements from a dictionary
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+car.clear()
+
+print(car)
+
+#syntax to copy the dictionary
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+x = car.copy()
+
+print(x)
